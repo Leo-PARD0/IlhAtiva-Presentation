@@ -6,6 +6,7 @@ import { NotFound } from "@/components/NotFound";
 export function getRouter() {
   return createRouter({
     routeTree,
+    basepath: import.meta.env.BASE_URL.replace(/\/$/, "") || "/",
     defaultPreload: "intent",
     defaultPreloadStaleTime: 0,
     defaultErrorComponent: DefaultCatchBoundary,
