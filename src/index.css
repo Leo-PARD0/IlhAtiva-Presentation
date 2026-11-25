@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --surface-light: #F5F5F0;
+    --petrol: #0B2027;
+    --petrol-deep: #0A3D44;
+    --victoria: #FF8800;
+    --leo: #1AB394;
+    --territory: #177A6E;
+    --sun: #FFD166;
+    --background: 60 20% 95.1%;
+    --foreground: 197 56% 9.8%;
+    --card: 60 20% 95.1%;
+    --card-foreground: 197 56% 9.8%;
+    --popover: 60 20% 95.1%;
+    --popover-foreground: 197 56% 9.8%;
+    --primary: 197 56% 9.8%;
+    --primary-foreground: 60 20% 95.1%;
+    --secondary: 168 75% 40.2%;
+    --secondary-foreground: 197 56% 9.8%;
+    --muted: 60 20% 91%;
+    --muted-foreground: 197 25% 35%;
+    --accent: 42 100% 70%;
+    --accent-foreground: 197 56% 9.8%;
+    --destructive: 32 100% 50%;
+    --destructive-foreground: 196 56% 10%;
+    --border: 197 56% 9.8%;
+    --input: 197 56% 9.8%;
+    --ring: 168 75% 40.2%;
+    --chart-1: 32 100% 50%;
+    --chart-2: 168 75% 40.2%;
+    --chart-3: 173 68% 28.4%;
+    --chart-4: 42 100% 70%;
+    --chart-5: 197 56% 9.8%;
+    --radius: 0.5rem;
+    --font-heading: "Sora", ui-sans-serif, system-ui, sans-serif;
+    --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+    --font-display: "Sora", ui-sans-serif, system-ui, sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --sidebar-background: 60 20% 95.1%;
+    --sidebar-foreground: 197 56% 9.8%;
+    --sidebar-primary: 197 56% 9.8%;
+    --sidebar-primary-foreground: 60 20% 95.1%;
+    --sidebar-accent: 42 100% 70%;
+    --sidebar-accent-foreground: 197 56% 9.8%;
+    --sidebar-border: 197 56% 9.8%;
+    --sidebar-ring: 168 75% 40.2%;
+  }
+
+  .dark {
+    --background: 60 20% 95.1%;
+    --foreground: 197 56% 9.8%;
+    --card: 60 20% 95.1%;
+    --card-foreground: 197 56% 9.8%;
+    --popover: 60 20% 95.1%;
+    --popover-foreground: 197 56% 9.8%;
+    --primary: 197 56% 9.8%;
+    --primary-foreground: 60 20% 95.1%;
+    --secondary: 168 75% 40.2%;
+    --secondary-foreground: 197 56% 9.8%;
+    --muted: 60 20% 91%;
+    --muted-foreground: 197 25% 35%;
+    --accent: 42 100% 70%;
+    --accent-foreground: 197 56% 9.8%;
+    --destructive: 32 100% 50%;
+    --destructive-foreground: 196 56% 10%;
+    --border: 197 56% 9.8%;
+    --input: 197 56% 9.8%;
+    --ring: 168 75% 40.2%;
+    --chart-1: 32 100% 50%;
+    --chart-2: 168 75% 40.2%;
+    --chart-3: 173 68% 28.4%;
+    --chart-4: 42 100% 70%;
+    --chart-5: 197 56% 9.8%;
+    --sidebar-background: 60 20% 95.1%;
+    --sidebar-foreground: 197 56% 9.8%;
+    --sidebar-primary: 197 56% 9.8%;
+    --sidebar-primary-foreground: 60 20% 95.1%;
+    --sidebar-accent: 42 100% 70%;
+    --sidebar-accent-foreground: 197 56% 9.8%;
+    --sidebar-border: 197 56% 9.8%;
+    --sidebar-ring: 168 75% 40.2%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+    background-color: var(--surface-light);
+    color: var(--petrol);
+  }
+}
