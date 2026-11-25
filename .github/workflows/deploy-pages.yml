@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - github-pages
   workflow_dispatch:
 
 permissions:
@@ -33,9 +32,9 @@ jobs:
         run: npm run build
       - name: Add SPA fallback
         run: cp dist/index.html dist/404.html
-      - name: Publish to gh-pages branch
+      - name: Publish to github-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          publish_branch: gh-pages
+          publish_branch: github-pages
