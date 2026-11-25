@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <rect width="1000" height="700" fill="#eee7d6"/>
+  <path fill="#e2d7bf" d="M35 42h930v616H35z"/>
+  <g fill="none" stroke="#33414a" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="5" d="m75 120 265-6m-260 18 178-5m501-14 155 4M96 586l206 8m447-3 145-4"/>
+    <rect x="106" y="177" width="216" height="378" rx="22" stroke-width="6" transform="rotate(-2 106 177)"/>
+    <rect x="391" y="164" width="216" height="383" rx="23" stroke-width="6" transform="rotate(1 391 164)"/>
+    <rect x="676" y="179" width="216" height="376" rx="23" stroke-width="6" transform="rotate(-1 676 179)"/>
+    <path stroke-width="4" d="m133 220 165-4m-160 20 128 3m-132 35 103-2m-99 18 121 4m-130 40 158 3m-162 18 129-2m-129 25 148 2m-145 86 158-3m-156 19 119 2m-150 19 62 1m251-288 162 4m-159 16 121-1m-118 42 150 2m-148 20 94-2m-91 20 133 2m-137 34 162 2m-157 20 124-3m-120 27 144 3m-139 20 91-1m-104 52 150 1m-148 20 121-2m-117 21 86 2m177-322 163 3m-159 20 133-2m-129 42 147 2m-145 20 111-2m-113 20 143 3m-143 37 158 2m-158 18 130-3m-127 28 148 1m-148 20 96-2m-124 51 149 1m-148 20 124-2"/>
+    <path stroke-width="3" d="m160 311 44-27 46 28-45 28zm288 18 40-28 45 27-43 29zm285-9 47-27 44 31-48 24zM182 448l32-32 31 32-32 34zm299 7 31-34 34 32-34 35zm283-5 37-31 31 31-35 36z"/>
+  </g>
+  <g fill="#e48356">
+    <circle cx="208" cy="312" r="5"/>
+    <circle cx="488" cy="329" r="5"/>
+    <circle cx="774" cy="320" r="5"/>
+  </g>
+</svg>
